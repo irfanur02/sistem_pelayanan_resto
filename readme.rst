@@ -4,6 +4,8 @@ Sistem Pelayanan Restoran
 
 Sistem Pelayanan Restoran merupakan sistem yang mampu menangani sebuah prosedur standar yang terjadi dalam pelayanan restoran. mulai dari pemesanan menu, menu sampai ke dapur, pesanan diantar ke pelanggan hingga pembayaran.
 
+proses mulai pemesanan dari pelanggan hingga pesanan masukn ke dapur serta diap antar ke pelanggan terjadi secara langsung / real-time
+
 ###################
 Bisnis Proses Sistem Pelayanan Restoran
 ###################
