@@ -1,0 +1,8 @@
+---------------------------------------------------------------------------------------
+query untuk menampikan semua pesanan sedang di masak di tanggal sekarang by id kategori
+SELECT dp.id_pesanan FROM pesanan p JOIN detail_pesanan dp ON dp.id_pesanan = p.id_pesanan JOIN menu m ON m.id_menu = dp.id_menu WHERE SUBSTRING(p.tanggal_pesanan, 1, 10) = '2023-09-16' AND m.id_kategori_menu = 2 AND dp.status_pesanan = 2 GROUP BY dp.id_pesanan ORDER BY dp.id_detail_pesanan ASC
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+query untuk menampikan semua detail pesanan di
+---------------------------------------------------------------------------------------

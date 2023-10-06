@@ -1,0 +1,26 @@
+(reservasi)
+pilih menu
+pilih meja
+dapat antrian pelayanan
+(dapur)
+data pelayanan
+(pelayan)
+pelayanan selesai
+(kasir)
+cari meja
+tampil rincian bayar
+
+menu 
+[id_menu, nama_menu, kategori_menu, harga]
+kategori menu
+[id_kategori, nama_kategori]
+meja 
+[id_meja, no_meja, status_ketersediaan, tanggal_reservasi] (status:reservasi{3}/terisi{2}kosong/{1})
+pesanan 
+[id_pesanan, id_meja, token, tanggal_pesanan]
+detail pesanan 
+[id_pesanan, id_menu, jumlah, status_pesanan] (status:pesanan selesai{3}/berjalan{2}/memilih{1})
+pembayaran 
+[id_pembayaran, id_pesanan, id_user, tanggal_pembayaran, model_pembayaran]
+user 
+[id_user, nama, no_hp]
